@@ -1,0 +1,30 @@
+{(6*Sinh[z*\[Phi][z]] - (12*khat^2*z^2*Cosh[z*\[Phi][z]]*Sinh[z*\[Phi][z]])/
+    V1[z] + (z^4*\[Gamma]*\[Mu]^2*Cosh[3*z*\[Phi][z]]^(-1 + \[Gamma]/3)*
+     Sinh[3*z*\[Phi][z]]*(-a[z] + (1 - z)*Derivative[1][a][z])^2)/2 + 
+   3*(-2*z*P[z] + z^2*Derivative[1][P][z] + (z^2*P[z]*Derivative[1][V1][z])/
+      (2*V1[z]) + (z^2*P[z]*Derivative[1][V2][z])/(2*V2[z]))*
+    (\[Phi][z] + z*Derivative[1][\[Phi]][z]) + 
+   3*z^2*P[z]*(2*Derivative[1][\[Phi]][z] + z*Derivative[2][\[Phi]][z]))/z^2, 
+ -2*Derivative[1][a][z] + (-a[z] + (1 - z)*Derivative[1][a][z])*
+   (Derivative[1][V1][z]/(2*V1[z]) + Derivative[1][V2][z]/(2*V2[z]) + 
+    \[Gamma]*Tanh[3*z*\[Phi][z]]*(\[Phi][z] + z*Derivative[1][\[Phi]][z])) + 
+  (1 - z)*Derivative[2][a][z], Derivative[1][V1][z]^2/(4*V1[z]^2) + 
+  Derivative[1][V2][z]^2/(4*V2[z]^2) - 
+  (3*(\[Phi][z] + z*Derivative[1][\[Phi]][z])^2)/2 - 
+  Derivative[2][V1][z]/(2*V1[z]) - Derivative[2][V2][z]/(2*V2[z]), 
+ -6*khat^2*Sinh[z*\[Phi][z]]^2 - (3*P[z]*V1[z])/z^2 - 
+  (V1[z]*(-6*Cosh[z*\[Phi][z]] + (z^4*\[Mu]^2*Cosh[3*z*\[Phi][z]]^
+        (\[Gamma]/3)*(-a[z] + (1 - z)*Derivative[1][a][z])^2)/2))/(2*z^2) + 
+  (V1[z]*Derivative[1][P][z])/z + (3*P[z]*Derivative[1][V1][z])/(2*z) - 
+  (Derivative[1][P][z]*Derivative[1][V1][z])/2 + 
+  (P[z]*Derivative[1][V1][z]^2)/(4*V1[z]) - 
+  (P[z]*(-2*V1[z] + z*Derivative[1][V1][z])*Derivative[1][V2][z])/
+   (4*z*V2[z]) - (P[z]*Derivative[2][V1][z])/2, 
+ (-3*P[z]*V2[z])/z^2 - 
+  (V2[z]*(-6*Cosh[z*\[Phi][z]] + (z^4*\[Mu]^2*Cosh[3*z*\[Phi][z]]^
+        (\[Gamma]/3)*(-a[z] + (1 - z)*Derivative[1][a][z])^2)/2))/(2*z^2) + 
+  (V2[z]*Derivative[1][P][z])/z + (3*P[z]*Derivative[1][V2][z])/(2*z) - 
+  (Derivative[1][P][z]*Derivative[1][V2][z])/2 + 
+  (P[z]*Derivative[1][V2][z]^2)/(4*V2[z]) - 
+  (P[z]*Derivative[1][V1][z]*(-2*V2[z] + z*Derivative[1][V2][z]))/
+   (4*z*V1[z]) - (P[z]*Derivative[2][V2][z])/2}
