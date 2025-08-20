@@ -1,0 +1,128 @@
+{w*z^2*\[Mu]*(-12 + \[Mu]^2)*a[z]*Cosh[3*z*\[Phi][z]]^(\[Gamma]/3)*dax[z]*
+   V1[z] + V1[z]*(12*khat*w*(-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)*d\[Chi][z]*
+     Sinh[z*\[Phi][z]]^2*U[z] + (-1 + z)*(-12 + \[Mu]^2)*
+     (w*z^2*\[Mu]*Cosh[3*z*\[Phi][z]]^(\[Gamma]/3)*dax[z]*
+       Derivative[1][a][z] + w*Derivative[1][dhtx][z] - 
+      (3*I)*khat*(-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)*Sinh[z*\[Phi][z]]^2*U[z]*
+       Derivative[1][d\[Chi]][z])) + 
+  w*dhtx[z]*((-12 + (4*I)*w + \[Mu]^2)*V1[z] - (-1 + z)*(-12 + \[Mu]^2)*
+     Derivative[1][V1][z]), (32*I)*khat*w*(-1 + z)*z*(-12 + \[Mu]^2)^2*
+   dhtx[z]*Sinh[z*\[Phi][z]]*V2[z] + 2*(-1 + z)^2*z*(-12 + \[Mu]^2)^2*
+   (-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)^2*Sinh[z*\[Phi][z]]*U[z]*V1[z]*V2[z]*
+   Derivative[1][d\[Chi]][z]*Derivative[1][U][z] + 
+  (-1 + z)^2*z*(-12 + \[Mu]^2)^2*(-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)^2*
+   Sinh[z*\[Phi][z]]*U[z]^2*V2[z]*Derivative[1][d\[Chi]][z]*
+   Derivative[1][V1][z] + (-1 + z)^2*z*(-12 + \[Mu]^2)^2*
+   (-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)^2*Sinh[z*\[Phi][z]]*U[z]^2*V1[z]*
+   Derivative[1][d\[Chi]][z]*Derivative[1][V2][z] + 
+  2*(-1 + z)*(-12 + \[Mu]^2)*(-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)*U[z]^2*V1[z]*
+   V2[z]*Derivative[1][d\[Chi]][z]*
+   (((8*I)*w*z*(-4 - 4*z - 4*z^2 + z^3*\[Mu]^2) + (-12 + \[Mu]^2)*
+       (-8 + 2*z^4*\[Mu]^2 - z^3*(4 + \[Mu]^2)))*Sinh[z*\[Phi][z]] + 
+    2*(-1 + z)*z*(-12 + \[Mu]^2)*(-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)*
+     Cosh[z*\[Phi][z]]*\[Phi][z] + 2*(-1 + z)*z^2*(-12 + \[Mu]^2)*
+     (-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)*Cosh[z*\[Phi][z]]*
+     Derivative[1][\[Phi]][z]) - 4*w*d\[Chi][z]*
+   ((-I)*(-1 + z)*z*(-12 + \[Mu]^2)*(4 + 4*z + 4*z^2 - z^3*\[Mu]^2)^2*
+     Sinh[z*\[Phi][z]]*U[z]^2*V2[z]*Derivative[1][V1][z] + 
+    V1[z]*((-I)*(-1 + z)*z*(-12 + \[Mu]^2)*(4 + 4*z + 4*z^2 - z^3*\[Mu]^2)^2*
+       Sinh[z*\[Phi][z]]*U[z]^2*Derivative[1][V2][z] + 
+      2*V2[z]*(-4*w*z*(-12 + \[Mu]^2)^2*Sinh[z*\[Phi][z]] - 
+        I*(-1 + z)*z*(-12 + \[Mu]^2)*(4 + 4*z + 4*z^2 - z^3*\[Mu]^2)^2*
+         Sinh[z*\[Phi][z]]*U[z]*Derivative[1][U][z] + 
+        (-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)*U[z]^2*
+         (((8*I)*(-12 + \[Mu]^2) + z^4*\[Mu]^2*(4*w - I*(-12 + \[Mu]^2)) - 
+            4*z*(4*w + I*(-12 + \[Mu]^2)) - 4*z^2*(4*w + I*(-12 + \[Mu]^2)) + 
+            z^3*(-16*w + I*\[Mu]^2*(-12 + \[Mu]^2)))*Sinh[z*\[Phi][z]] - 
+          (2*I)*(-1 + z)*z*(-12 + \[Mu]^2)*(-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)*
+           Cosh[z*\[Phi][z]]*\[Phi][z] - (2*I)*(-1 + z)*z^2*(-12 + \[Mu]^2)*
+           (-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)*Cosh[z*\[Phi][z]]*
+           Derivative[1][\[Phi]][z])))) + 2*(-1 + z)^2*z*(-12 + \[Mu]^2)^2*
+   (-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)^2*Sinh[z*\[Phi][z]]*U[z]^2*V1[z]*V2[z]*
+   Derivative[2][d\[Chi]][z], 
+ -4*w*dax[z]*(I*(-1 + z)*(-12 + \[Mu]^2)*(4 + 4*z + 4*z^2 - z^3*\[Mu]^2)^2*
+     U[z]^2*V2[z]*Derivative[1][V1][z] + 
+    V1[z]*((-I)*(-1 + z)*(-12 + \[Mu]^2)*(4 + 4*z + 4*z^2 - z^3*\[Mu]^2)^2*
+       U[z]^2*Derivative[1][V2][z] + 2*V2[z]*(-4*w*(-12 + \[Mu]^2)^2 - 
+        I*(-1 + z)*(-12 + \[Mu]^2)*(4 + 4*z + 4*z^2 - z^3*\[Mu]^2)^2*U[z]*
+         Derivative[1][U][z] + (-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)*U[z]^2*
+         (48*I - 16*w + (48*I)*z - 16*w*z - (96*I)*z^2 - 16*w*z^2 - 
+          (4*I)*\[Mu]^2 - (4*I)*z*\[Mu]^2 - (28*I)*z^2*\[Mu]^2 + 
+          (36*I)*z^3*\[Mu]^2 + 4*w*z^3*\[Mu]^2 + (3*I)*z^2*\[Mu]^4 - 
+          (3*I)*z^3*\[Mu]^4 - I*(-1 + z)*\[Gamma]*(-12 + \[Mu]^2)*
+           (-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)*Tanh[3*z*\[Phi][z]]*\[Phi][z] - 
+          I*(-1 + z)*z*\[Gamma]*(-12 + \[Mu]^2)*(-4 - 4*z - 4*z^2 + 
+            z^3*\[Mu]^2)*Tanh[3*z*\[Phi][z]]*Derivative[1][\[Phi]][z])))) + 
+  (-1 + z)*(-12 + \[Mu]^2)*(-4 - 4*z - 4*z^2 + z^3*\[Mu]^2)*U[z]*
+   ((-64*I)*w*U[z]*V1[z]*V2[z]*Derivative[1][dax][z] - 
+    (64*I)*w*z*U[z]*V1[z]*V2[z]*Derivative[1][dax][z] + 
+    288*z^2*U[z]*V1[z]*V2[z]*Derivative[1][dax][z] - 
+    (64*I)*w*z^2*U[z]*V1[z]*V2[z]*Derivative[1][dax][z] + 
+    48*z^2*\[Mu]^2*U[z]*V1[z]*V2[z]*Derivative[1][dax][z] - 
+    96*z^3*\[Mu]^2*U[z]*V1[z]*V2[z]*Derivative[1][dax][z] + 
+    (16*I)*w*z^3*\[Mu]^2*U[z]*V1[z]*V2[z]*Derivative[1][dax][z] - 
+    6*z^2*\[Mu]^4*U[z]*V1[z]*V2[z]*Derivative[1][dax][z] + 
+    8*z^3*\[Mu]^4*U[z]*V1[z]*V2[z]*Derivative[1][dax][z] - 
+    96*\[Gamma]*Tanh[3*z*\[Phi][z]]*U[z]*V1[z]*V2[z]*\[Phi][z]*
+     Derivative[1][dax][z] + 96*z^3*\[Gamma]*Tanh[3*z*\[Phi][z]]*U[z]*V1[z]*
+     V2[z]*\[Phi][z]*Derivative[1][dax][z] + 8*\[Gamma]*\[Mu]^2*
+     Tanh[3*z*\[Phi][z]]*U[z]*V1[z]*V2[z]*\[Phi][z]*Derivative[1][dax][z] + 
+    16*z^3*\[Gamma]*\[Mu]^2*Tanh[3*z*\[Phi][z]]*U[z]*V1[z]*V2[z]*\[Phi][z]*
+     Derivative[1][dax][z] - 24*z^4*\[Gamma]*\[Mu]^2*Tanh[3*z*\[Phi][z]]*U[z]*
+     V1[z]*V2[z]*\[Phi][z]*Derivative[1][dax][z] - 
+    2*z^3*\[Gamma]*\[Mu]^4*Tanh[3*z*\[Phi][z]]*U[z]*V1[z]*V2[z]*\[Phi][z]*
+     Derivative[1][dax][z] + 2*z^4*\[Gamma]*\[Mu]^4*Tanh[3*z*\[Phi][z]]*U[z]*
+     V1[z]*V2[z]*\[Phi][z]*Derivative[1][dax][z] - 
+    96*\[Mu]*V1[z]*V2[z]*Derivative[1][a][z]*Derivative[1][dhtx][z] + 
+    192*z*\[Mu]*V1[z]*V2[z]*Derivative[1][a][z]*Derivative[1][dhtx][z] - 
+    96*z^2*\[Mu]*V1[z]*V2[z]*Derivative[1][a][z]*Derivative[1][dhtx][z] + 
+    8*\[Mu]^3*V1[z]*V2[z]*Derivative[1][a][z]*Derivative[1][dhtx][z] - 
+    16*z*\[Mu]^3*V1[z]*V2[z]*Derivative[1][a][z]*Derivative[1][dhtx][z] + 
+    8*z^2*\[Mu]^3*V1[z]*V2[z]*Derivative[1][a][z]*Derivative[1][dhtx][z] - 
+    96*V1[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][U][z] + 
+    96*z^3*V1[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][U][z] + 
+    8*\[Mu]^2*V1[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][U][z] + 
+    16*z^3*\[Mu]^2*V1[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][U][z] - 
+    24*z^4*\[Mu]^2*V1[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][U][z] - 
+    2*z^3*\[Mu]^4*V1[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][U][z] + 
+    2*z^4*\[Mu]^4*V1[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][U][z] + 
+    48*U[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][V1][z] - 
+    48*z^3*U[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][V1][z] - 
+    4*\[Mu]^2*U[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][V1][z] - 
+    8*z^3*\[Mu]^2*U[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][V1][z] + 
+    12*z^4*\[Mu]^2*U[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][V1][z] + 
+    z^3*\[Mu]^4*U[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][V1][z] - 
+    z^4*\[Mu]^4*U[z]*V2[z]*Derivative[1][dax][z]*Derivative[1][V1][z] + 
+    8*(-1 + z)*\[Mu]*dhtx[z]*V2[z]*Derivative[1][a][z]*
+     ((-12 + (4*I)*w + \[Mu]^2)*V1[z] - (-1 + z)*(-12 + \[Mu]^2)*
+       Derivative[1][V1][z]) + 8*\[Mu]*a[z]*V2[z]*
+     ((-1 + z)*(-12 + \[Mu]^2)*V1[z]*Derivative[1][dhtx][z] + 
+      dhtx[z]*((-12 + (4*I)*w + \[Mu]^2)*V1[z] - (-1 + z)*(-12 + \[Mu]^2)*
+         Derivative[1][V1][z])) - 48*U[z]*V1[z]*Derivative[1][dax][z]*
+     Derivative[1][V2][z] + 48*z^3*U[z]*V1[z]*Derivative[1][dax][z]*
+     Derivative[1][V2][z] + 4*\[Mu]^2*U[z]*V1[z]*Derivative[1][dax][z]*
+     Derivative[1][V2][z] + 8*z^3*\[Mu]^2*U[z]*V1[z]*Derivative[1][dax][z]*
+     Derivative[1][V2][z] - 12*z^4*\[Mu]^2*U[z]*V1[z]*Derivative[1][dax][z]*
+     Derivative[1][V2][z] - z^3*\[Mu]^4*U[z]*V1[z]*Derivative[1][dax][z]*
+     Derivative[1][V2][z] + z^4*\[Mu]^4*U[z]*V1[z]*Derivative[1][dax][z]*
+     Derivative[1][V2][z] - 96*z*\[Gamma]*Tanh[3*z*\[Phi][z]]*U[z]*V1[z]*
+     V2[z]*Derivative[1][dax][z]*Derivative[1][\[Phi]][z] + 
+    96*z^4*\[Gamma]*Tanh[3*z*\[Phi][z]]*U[z]*V1[z]*V2[z]*
+     Derivative[1][dax][z]*Derivative[1][\[Phi]][z] + 
+    8*z*\[Gamma]*\[Mu]^2*Tanh[3*z*\[Phi][z]]*U[z]*V1[z]*V2[z]*
+     Derivative[1][dax][z]*Derivative[1][\[Phi]][z] + 
+    16*z^4*\[Gamma]*\[Mu]^2*Tanh[3*z*\[Phi][z]]*U[z]*V1[z]*V2[z]*
+     Derivative[1][dax][z]*Derivative[1][\[Phi]][z] - 
+    24*z^5*\[Gamma]*\[Mu]^2*Tanh[3*z*\[Phi][z]]*U[z]*V1[z]*V2[z]*
+     Derivative[1][dax][z]*Derivative[1][\[Phi]][z] - 
+    2*z^4*\[Gamma]*\[Mu]^4*Tanh[3*z*\[Phi][z]]*U[z]*V1[z]*V2[z]*
+     Derivative[1][dax][z]*Derivative[1][\[Phi]][z] + 
+    2*z^5*\[Gamma]*\[Mu]^4*Tanh[3*z*\[Phi][z]]*U[z]*V1[z]*V2[z]*
+     Derivative[1][dax][z]*Derivative[1][\[Phi]][z] - 
+    96*U[z]*V1[z]*V2[z]*Derivative[2][dax][z] + 96*z^3*U[z]*V1[z]*V2[z]*
+     Derivative[2][dax][z] + 8*\[Mu]^2*U[z]*V1[z]*V2[z]*
+     Derivative[2][dax][z] + 16*z^3*\[Mu]^2*U[z]*V1[z]*V2[z]*
+     Derivative[2][dax][z] - 24*z^4*\[Mu]^2*U[z]*V1[z]*V2[z]*
+     Derivative[2][dax][z] - 2*z^3*\[Mu]^4*U[z]*V1[z]*V2[z]*
+     Derivative[2][dax][z] + 2*z^4*\[Mu]^4*U[z]*V1[z]*V2[z]*
+     Derivative[2][dax][z])}
